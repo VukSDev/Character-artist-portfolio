@@ -1,0 +1,40 @@
+html, body {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  opacity: 0.8;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.topnav {
+  height: 100;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.main_container {
+  width: 100%;
+}
+
+.main_container_el {
+  float: left;
+  width: 20%;
+  height: 100vh;
+  overflow: hidden;
+}
