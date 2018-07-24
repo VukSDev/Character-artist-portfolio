@@ -1,18 +1,24 @@
 html, body {
-  background-color: black;
   width: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
+  font-weight: 200;
 }
 
 a {
   opacity: 0.8;
-  -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s, color 0.5s;
+  transition: opacity 0.5s, color 0.5s;
+    text-decoration: none;
 }
 
 a:hover {
   opacity: 1;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
 }
 
 h1, h2 {
@@ -20,19 +26,52 @@ h1, h2 {
   margin: 0 auto;
 }
 
-.topnav {
-  height: 100;
-  background-color: rgba(0, 0, 0, 0.1);
+.main {
+  width: 100%;
+}
+
+.top {
+  background-color: #181818;
   width: 100%;
   color: white;
   text-align: center;
+  overflow:auto;
+  border-bottom-color: black;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
 }
 
-.main_container {
+.top_el{
+  padding: 50px 0;
+  float: left;
+  width: 50%;
+}
+
+.title{
+  padding-left: 30%;
+  text-align: left;
+  font-size: 30px;
+}
+
+.title a:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+.subtitle{
+  padding-left: 30%;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.image_container {
+  background-color: #232323;
+  float: left;
   width: 100%;
 }
 
-.main_container_el {
+.image_el {
   float: left;
   width: 20%;
   height: 100vh;
