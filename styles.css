@@ -2,14 +2,15 @@ html, body {
   width: 100%;
   margin: 0;
   font-family: 'Roboto';
-  font-weight: 200;
+  font-weight:300;
+  color: white;
 }
 
 a {
   opacity: 0.8;
   -webkit-transition: opacity 0.5s, color 0.5s;
   transition: opacity 0.5s, color 0.5s;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
@@ -35,34 +36,45 @@ h1, h2 {
   width: 100%;
   color: white;
   text-align: center;
-  overflow:auto;
+  overflow: auto;
   border-bottom-color: black;
   border-bottom-width: thin;
   border-bottom-style: solid;
 }
 
-.top_el{
+.top_el {
   padding: 50px 0;
   float: left;
   width: 50%;
 }
 
-.title{
+.top_nav {
+  float: left;
+  width: 5%;
+  padding-left: 20%;
+}
+
+.top_nav a:hover {
+  color: grey;
+}
+
+.title {
   padding-left: 30%;
   text-align: left;
   font-size: 30px;
 }
 
-.title a:hover{
+.title a:hover {
   color: grey;
   cursor: pointer;
 }
 
-.subtitle{
+.subtitle {
   padding-left: 30%;
-  padding-top: 10px;
+  padding-top: 5px;
   text-align: left;
   font-size: 20px;
+  font-weight: 200;
 }
 
 .image_container {
@@ -76,4 +88,34 @@ h1, h2 {
   width: 20%;
   height: 100vh;
   overflow: hidden;
+}
+
+.cv_container {
+  background-color: #232323;
+  float: left;
+  width: 100%;
+  height: 100vh;
+}
+
+.cv_el {
+  width: 25%;
+  padding-left: 20%;
+  float: left;
+  text-align: left;
+}
+
+.cv_container img {
+  padding-top: 50px;
+  width: 400px;
+}
+
+.footer {
+  border-top-color: black;
+  border-top-width: thin;
+  border-top-style: solid;
+  float: left;
+  width: 100%;
+  height: 200px;
+  background-color: #181818;
+  overflow: auto;
 }
